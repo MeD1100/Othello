@@ -1,0 +1,64 @@
+git version
+pwd
+mkdir
+ls
+ls cours_git/
+cd 
+git config --global user.name "Mohamed Rhimi"
+git config --global user.email mohamed.rhimi@ensi-uma.tn
+git config --global --list
+git <=> git --help
+git init ( yaameli repository fl location mteei (pwd ) )
+git status ( ychoufli el wadh3 mtee el git mteei )
+git add Hello.html  ( pour indexer un fichier )
+git add . ( mettre toutes les modifications dans le workspace dans la zone d'indexe)
+git reset hello.html ( pour désindexer un fichier )
+git commit -m" mon premier commit " (to commit ur indexes 
+		rq: lezem dima msg bsh nefhem rouhi fl commit esh 3malt)
+
+git diff (pour differencer entre les deux dernieres commit que j'ai crée )
+	en rouge ce qui est supprimé
+	en vert ce qui est ajouté
+
+exercice: -------------------------------------------------
+git status
+git add Hello.html
+git status
+git commit -m" présentation du soi "
+git diff	
+--------------------------------------------------------------
+
+		git checkout
+Navigation historique: git checkout <sha1>
+		       git checkout <refs>
+Annuler modif: git checkout <file>
+Changer de branche: git checkout <branch_name>
+		    git switch <branch_name>
+git checkout -b <branch_name>
+git switch -c <branch_name> ( pour créer une branche et de déplacer dessus )
+
+
+supprimer ------
+git checkout <file name>
+git restore <file name>
+git restore --staged <file name>
+
+git switch - ( permet d'annuler git checkout et revenir a la branche sur laquelle j'étais )
+
+merger deux branches ---------
+git switch master
+git merge develop
+
+
+
+
+C:\Users\medrh\Dropbox\Mon PC (LAPTOP-3J3C1R59)\Desktop\git_files\Projet_othello
+
+
+
+
+
+
+
+
+
